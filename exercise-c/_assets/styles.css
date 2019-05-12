@@ -1,0 +1,156 @@
+html, body{
+	margin:0;
+	padding:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+h1{
+	font-family:"nimbus-sans", sans-serif;
+	font-style:normal;
+	font-weight:normal;
+	font-size:24px;
+	margin-top:4vmin;
+	margin-bottom:0;
+}
+
+p{
+	font-family:"nimbus-sans", sans-serif;
+	font-style:normal;
+	font-weight:300;
+	font-size:16px;
+	margin-bottom:15vmin;
+	margin-top:.5vmin;
+}
+
+.main{
+	width:100vmin;
+	margin:0;
+	padding-top:7vmin;
+}
+
+.iran{
+	width:100vmin;
+	height:56.95vmin;
+	position:relative;
+}
+
+.iran .top{
+	width:100vmin;
+	height:19.068vmin;
+	margin-bottom:19.068vmin;
+	background-color:#1EA03E;
+}
+
+.iran .bottom{
+	width:100vmin;
+	height:19.068vmin;
+	background-color:#DB0000;
+}
+
+.iran .emblem{
+	width:14vmin;
+	position:absolute;
+	top:22vmin;
+	left:43vmin;
+}
+
+.iran .top .decor{
+	width:97vmin;
+	position:absolute;
+	top:15.85vmin;
+	left:1.5vmin;
+}
+
+.iran .bottom .decor{
+	width:97vmin;
+	position:absolute;
+	top:38.1vmin;
+	left:1.5vmin;
+}
+
+.iraq{
+	width:100vmin;
+	height:66.605vmin;
+	position:relative;
+}
+
+.iraq .top{
+	width:100vmin;
+	height:22.2vmin;
+	margin-bottom:22.2vmin;
+	float:top;
+	background-color:red;
+}
+
+.iraq .bottom{
+	width:100vmin;
+	height:22.2vmin;
+	background-color:black;
+}
+
+.iraq .emblem{
+	width:42vmin;
+	position:absolute;
+	top:25vmin;
+	left:29vmin;
+}
+
+.israel{
+	width:100vmin;
+	height:72.75vmin;
+	margin-bottom:1vmin;
+	border:1px solid white;
+	position:relative;
+}
+
+.israel .top{
+	width:100vmin;
+	height:12vmin;
+	margin-top:7vmin;
+	margin-bottom:32vmin;
+	background-color:#0035BA;
+}
+
+.israel .bottom{
+	width:100vmin;
+	height:12vmin;
+	background-color:#0035BA;
+}
+
+.israel .emblem{
+	width:28vmin;
+	position:absolute;
+	top:20vmin;
+	left:36.5vmin;
+}
+
+.malaysia{
+	width:100vmin;
+	height:49.75vmin;
+	position:relative;
+}
+
+.malaysia .stripe{
+	width:100vmin;
+	height:3.83vmin;
+	margin-bottom:3.83vmin;
+	background-color:#CD0000;
+}
+
+.malaysia .corner{
+	width:50vmin;
+	height:30.75vmin;
+	background-color:#000066;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.malaysia .emblem{
+	width:35vmin;
+	position:absolute;
+	top:2vmin;
+	left:7.25vmin;
+}
