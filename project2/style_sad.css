@@ -1,0 +1,96 @@
+body {
+  width:100%;
+  margin:0;
+  padding:0;
+  background-color:#92a4af;
+}
+
+#header{
+  width:98%;
+  /* align-items:center;
+  justify-content:center; */
+  padding:1% 1% 0% 1%;
+}
+
+h1, a{
+  font-family:"Helvetica";
+  font-size:12pt;
+  font-weight:lighter;
+  margin:0;
+  text-decoration:none;
+  color:black;
+}
+
+#cursor {
+  font-family:"Big Caslon";
+  font-size:30pt;
+  font-weight:lighter;
+  animation: blinker 1s step-end infinite;
+  /* you can change 'step-end' to 'linear' for smooth transition */
+}
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+#container {
+  width:84%;
+  padding:125px 8% 100px 8%;
+  word-wrap:break-word;
+  font-family:"Big Caslon", serif;
+  font-size:30pt;
+  line-height:55pt;
+}
+
+#footer{
+  width:98%;
+  padding:0% 1% 1% 1%;
+  z-index:1;
+  position:fixed;
+  bottom:0;
+}
+
+.left{
+  float:left;
+  position:relative;
+}
+
+.right{
+  float:right;
+  position:relative;
+}
+
+.newline{
+  width:100%;
+  margin:0;
+  padding:0;
+  word-wrap:break-word;
+  font-family:"Big Caslon", serif;
+  font-size:30pt;
+}
+
+.word{
+  /* padding-bottom:3vh; */
+}
+
+#happy{
+  position:absolute;
+  transform:rotate(-90deg);
+  left:-1vmin;
+  top:45%;
+  padding:0;
+}
+
+#sad{
+  position:absolute;
+  transform:rotate(90deg);
+  right:-1vmin;
+  top:45%;
+  padding:0;
+}
+
+button {
+  border:none;
+  /* padding:0; */
+  font-size:12pt;
+  font-weight:lighter;
+}
